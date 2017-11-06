@@ -1,0 +1,68 @@
+		body {
+			background-color: aqua;
+		}
+		h1 {
+			color: red;
+		}
+		
+		header {
+			width: 75%;
+			margin: auto;
+			background-color: beige;
+		}
+		header h1 {
+			color:purple;
+		}
+		h1:hover {
+			color: white;
+		}
+		
+		img {
+			width:60%;
+			height: auto;
+		}
+		nav {
+			background-color: bisque;
+		}
+		#main {
+			color:gray;
+		}
+		.highlight {
+			color:yellow;
+		}
+		
+		article {
+			width:50%;
+			margin: auto;
+		}
+			
+		aside p {
+				background-color: green;
+		}
+		aside .highlight {
+			background-color:green;
+		}
+		
+		a {
+			/* text-decoration: line-through; */
+			text-decoration: none;
+		}
+		
+		a:visited {
+			text-decoration: none;
+		}
+	
+		nav a:hover {
+			text-decoration: underline;
+			font-size: 1.5em;
+		}
+		
+		p::first-letter {
+			font-size: 2em;
+			color:firebrick;
+		}
+		
+		footer {
+			border:1px solid red;
+			border-radius: 20px;
+		}
